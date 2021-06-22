@@ -1,9 +1,9 @@
 <?php
 
-namespace Softiso\Tranzilla\Message\Responses;
+namespace Softiso\Tranzila\Message\Responses;
 
-use Softiso\Tranzilla\Message\Requests\AbstractRequest;
-use Softiso\Tranzilla\Status;
+use Softiso\Tranzila\Message\Requests\AbstractRequest;
+use Softiso\Tranzila\Status;
 use Omnipay\Common\Message\AbstractResponse;
 use Omnipay\Common\Message\RequestInterface;
 use stdClass;

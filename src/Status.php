@@ -1,6 +1,6 @@
 <?php
 
-namespace Softiso\Tranzilla;
+namespace Softiso\Tranzila;
 
 /***
  * Class Status

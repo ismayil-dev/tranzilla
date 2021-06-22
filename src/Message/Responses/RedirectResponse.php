@@ -1,8 +1,8 @@
 <?php
 
-namespace Softiso\Tranzilla\Message\Responses;
+namespace Softiso\Tranzila\Message\Responses;
 
-use Softiso\Tranzilla\Message\Requests\AbstractRequest;
+use Softiso\Tranzila\Message\Requests\AbstractRequest;
 use Omnipay\Common\Exception\InvalidRequestException;
 use Omnipay\Common\Message\RedirectResponseInterface;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace Softiso\Tranzilla;
+namespace Softiso\Tranzila;
 
-use Softiso\Tranzilla\Message\Requests\AuthorizeRequest;
-use Softiso\Tranzilla\Message\Requests\CaptureRequest;
-use Softiso\Tranzilla\Message\Requests\PurchaseRequest;
-use Softiso\Tranzilla\Message\Requests\RefundRequest;
-use Softiso\Tranzilla\Message\Requests\VoidRequest;
+use Softiso\Tranzila\Message\Requests\AuthorizeRequest;
+use Softiso\Tranzila\Message\Requests\CaptureRequest;
+use Softiso\Tranzila\Message\Requests\PurchaseRequest;
+use Softiso\Tranzila\Message\Requests\RefundRequest;
+use Softiso\Tranzila\Message\Requests\VoidRequest;
 use Omnipay\Common\AbstractGateway;
 use Omnipay\Common\Message\RequestInterface;
 

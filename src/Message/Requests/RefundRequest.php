@@ -1,6 +1,6 @@
 <?php
 
-namespace Softiso\Tranzilla\Message\Requests;
+namespace Softiso\Tranzila\Message\Requests;
 
 /**
  * Class RefundRequest

@@ -1,6 +1,6 @@
 {
-  "name": "softiso/tranzilla",
-  "description": "Tranzilla payment gateway",
+  "name": "softiso/tranzila",
+  "description": "Tranzila payment gateway",
   "type": "library",
   "homepage": "https://github.com/softisoDev/tranzilla.git",
   "license": "MIT",
