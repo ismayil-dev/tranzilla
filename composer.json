@@ -1,0 +1,34 @@
+{
+  "name": "softiso/tranzilla",
+  "description": "Tranzilla payment gateway",
+  "type": "library",
+  "homepage": "https://github.com/softisoDev/tranzilla.git",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ismayil Aliyev",
+      "email": "ismayil.developer@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.2||^8.0",
+    "omnipay/common": "^3.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "symplify/easy-coding-standard": "^7.2||^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Softiso\\Tranzilla\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "minimum-stability": "dev"
+}
