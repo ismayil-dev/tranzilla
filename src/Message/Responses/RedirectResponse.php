@@ -45,7 +45,7 @@ class RedirectResponse extends Response implements RedirectResponseInterface
      */
     public function getRedirectUrl(): string
     {
-        return "https://direct.tranzila.com/{$this->request->getSupplier()}/iframe.php?" . $this->getUrlParams();
+        return "https://direct.tranzila.com/{$this->request->getSupplier()}/iframenew.php?" . $this->getUrlParams();
     }
 
     /**
