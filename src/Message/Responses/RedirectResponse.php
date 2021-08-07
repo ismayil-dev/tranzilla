@@ -72,7 +72,7 @@ class RedirectResponse extends Response implements RedirectResponseInterface
             'phone'      => $this->request->getPhone(),
             'remarks'    => $this->request->getRemarks(),
             'sum'        => $this->request->getSum(),
-            'token'      => $this->request->getToken(),
+            'thtk'      => $this->request->getToken(),
         ]);
 
         return http_build_query($params, '', '&');
