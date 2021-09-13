@@ -55,7 +55,7 @@ class RedirectResponse extends Response implements RedirectResponseInterface
     private function getUrlParams(): string
     {
         $params = array_filter([
-            'tranmode'   => 'VK',
+            'tranmode'   => 'AK',
             'TranzilaTK' => '1',
             'address'    => $this->request->getAddress(),
             'city'       => $this->request->getCity(),
